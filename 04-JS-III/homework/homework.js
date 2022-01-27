@@ -30,6 +30,7 @@ function incrementarPorUno(array) {
   for(var i = 0; i < array.length; i++){
     nuevoArray[i] = array[i] + 1;
   }
+  return nuevoArray;
 }
 
 
@@ -144,7 +145,7 @@ function diaDeLaSemana(numeroDeDia) {
 if(numeroDeDia === 1 || numeroDeDia === 7){
   return "Es fin de semana"
 }
-return "Es dia laboral"
+return "Es dia Laboral"
 } 
 
 
